@@ -1,4 +1,4 @@
-list = ["tomatoes", "pizza", "grapes", "lemons"]
+list = ["tomatoes", "pizza", "grapes", "salmon"]
 
 def groceries(grocery_list)
 
@@ -21,3 +21,11 @@ else
 end
 
 puts list[1]
+
+sorted_list=list.sort
+
+groceries(sorted_list)
+
+list.delete("salmon")
+
+groceries(list)
